@@ -728,6 +728,11 @@ section {
   margin-right: 10px;
   transition: 0.3s;
 }
+.footer .social-links a:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
 .hero .social-links-head a {
   display: flex;
   align-items: center;
@@ -742,7 +747,8 @@ section {
   transition: 0.3s;
 }
 
-.footer .social-links a:hover {
+.hero .social-links-head a:hover {
+
   color: var(--color-primary);
   border-color: var(--color-primary);
 }
