@@ -690,9 +690,11 @@ section {
   padding-top: 50px;
 }
 
+
 .footer .footer-about .logo {
   line-height: 0;
   margin-bottom: 25px;
+ 
 }
 
 .footer .footer-about .logo img {
@@ -714,6 +716,19 @@ section {
 }
 
 .footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(var(--color-default-rgb), 0.5);
+  font-size: 16px;
+  color: rgba(var(--color-default-rgb), 0.5);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.hero .social-links-head a {
   display: flex;
   align-items: center;
   justify-content: center;
